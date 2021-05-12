@@ -7,7 +7,7 @@ class Paddle{
         this.width = paddle.width;
         this.height = paddle.height;
 
-        this.img = loadImage("/src/assets/sprites/paddle.png");
+        this.img = loadImage("src/assets/sprites/paddle.png");
     
         this.speed = 15;
 
