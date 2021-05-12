@@ -10,10 +10,10 @@ let gameFont;
 
 function preload(){
   soundFormats('wav');
-  soundLoop = 0;
-  sountHit = 0;
-  sountPoint = 0;
-  gameFont = 0;
+  soundLoop = loadSound("src/assets/sfx/musicloop.wav");
+  sountHit = loadSound("src/assets/sfx/kick.wav");
+  sountPoint = loadSound("src/assets/sfx/point.wav");
+  gameFont = loadFont("src/assets/font/kenvector_future_thin.ttf");
 }
 
 function setup() {
