@@ -6,7 +6,7 @@ class Ball {
         this.width = ballD.width;
         this.height = ballD.height;
 
-        this.img = loadImage("/Pong/src/assets/sprites/ball.png");
+        this.img = loadImage("src/assets/sprites/ball.png");
 
         this.speedX = 10 * this.direccionRandom();
         this.speedY = 10 * this.direccionRandom();
