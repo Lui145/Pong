@@ -19,7 +19,7 @@ function preload(){
 function setup() {
   bg = loadImage("src/assets/sprites/board.png");
 
-  soundLoop.loop();
+  //soundLoop.loop();
 
   ball = new Ball(BallFactory.coords(
       board.width/2 - ballD.width/2,
