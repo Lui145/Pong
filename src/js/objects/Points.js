@@ -12,7 +12,7 @@ class Points{
         fill("fff");
         textSize(35);
         textAlign(CENTER);
-        //textFont(this.font);
+        textFont(this.font);
         text(`${this.p1} - ${this.p2}`, this.x, this.y);
     }
 
