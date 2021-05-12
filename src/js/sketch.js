@@ -17,7 +17,7 @@ function preload(){
 }
 
 function setup() {
-  bg = loadImage("src/assets/sprites/board.png");
+  bg = loadImage("src/assets/sprites/board.jpg");
 
   //soundLoop.loop();
 
